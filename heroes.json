@@ -1,0 +1,29 @@
+{
+  "hero": {
+      "heroName": "Spiderman",
+      "humanName": "Peter Paker",
+      "superPower": "Spider Powers",
+      "normalJob": "Photographer",
+      "romanticPartner": "Mary Jane Watson",
+      "worstEnemy": "Green Goblin",
+      "company": "Marvel"
+  },
+  "hero2": {
+      "heroName": "Iron Man",
+      "humanName": "Tony Stark",
+      "superPower": "Iron Armor",
+      "normalJob": "Business Person",
+      "romanticPartner": "Pepper Potts",
+      "worstEnemy": "Obadiah Stane",
+      "company": "Marvel"
+  },
+  "hero3": {
+      "heroName": "Captain America",
+      "humanName": "Steve Rogers",
+      "superPower": "Super Human with a nice field",
+      "normalJob": "Soldier",
+      "romanticPartner": "Peggy Carter",
+      "worstEnemy": "Red Skull",
+      "company": "Marvel"
+  }
+}
