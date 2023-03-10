@@ -170,7 +170,7 @@
           }
         ],
         "responses": {
-          "204": {
+          "200": {
             "description": "No Content"
           },
           "400": {

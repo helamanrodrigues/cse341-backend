@@ -63,13 +63,13 @@ content-type: application/json
 
 
 ### PUT contact
-PUT https://cse341-assignment06.onrender.com/heroes/6406915da422f88393232990 HTTP/1.1
+PUT https://cse341-assignment06.onrender.com/heroes/640a910b87ff850182bbaab5 HTTP/1.1
 content-type: application/json
 
 {
     "heroName": "Batman",
     "humanName": "Bruce Wayne",
-    "superPower": "Expensive acessories and intelligence",
+    "superPower": "Expensive acessories and smart one",
     "normalJob": "Business Man",
     "romanticPartner": "Catwoman",
     "worstEnemy": "Joker",
