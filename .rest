@@ -40,38 +40,42 @@ DELETE http://localhost:8083/heroes/640a81d643b802f4f23c73d2 HTTP/1.1
 
 // PRODUCTION Deploy
 ### Get all contacts
-GET https://cse341-instructor.herokuapp.com/contacts
+GET https://cse341-assignment06.onrender.com/heroes
 
 
 ### Get contact by id
-GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b3
+GET https://cse341-assignment06.onrender.com/heroes/6406915da422f88393232990
 
 
 ### Create contact
-POST https://cse341-instructor.herokuapp.com/contacts HTTP/1.1
+POST https://cse341-assignment06.onrender.com/heroes HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ashley",
-    "lastName":"Weaver",
-    "email":"aWeaver@test.com",
-    "favoriteColor":"Brown",
-    "birthday":"06/19/2000"
+    "heroName": "Batman",
+    "humanName": "Bruce Wayne",
+    "superPower": "Expensive acessories and smart",
+    "normalJob": "Business Man",
+    "romanticPartner": "WonderWoman",
+    "worstEnemy": "Joker",
+    "company": "DC"
 }
 
 
 ### PUT contact
-PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT https://cse341-assignment06.onrender.com/heroes/6406915da422f88393232990 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Sarah",
-    "lastName":"Birch",
-    "email":"sarahB@gmail.com",
-    "favoriteColor":"Yellow",
-    "birthday":"06/12/20"
+    "heroName": "Batman",
+    "humanName": "Bruce Wayne",
+    "superPower": "Expensive acessories and intelligence",
+    "normalJob": "Business Man",
+    "romanticPartner": "Catwoman",
+    "worstEnemy": "Joker",
+    "company": "DC"
 }
 
 
 ### DELETE contact
-DELETE https://cse341-instructor.herokuapp.com/contacts/6220e34083149913680f9a64 HTTP/1.1
+DELETE https://cse341-assignment06.onrender.com/heroes/6406915da422f88393232990 HTTP/1.1

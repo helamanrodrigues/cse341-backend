@@ -5,10 +5,10 @@
     "description": "Heroes API",
     "version": "1.0.0"
   },
-  "host": "localhost:8083",
+  "host": "cse341-assignment06.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
